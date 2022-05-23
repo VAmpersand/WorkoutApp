@@ -120,10 +120,12 @@
 		77709165283BF58C00AD7841 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7770916F283BF80F00AD7841 /* Settings */,
-				7770916E283BF80A00AD7841 /* Progress */,
-				7770916D283BF80300AD7841 /* Session */,
+				7770915A283BEEEF00AD7841 /* TabBarController.swift */,
+				77709163283BF45500AD7841 /* NavBarController.swift */,
 				7770916C283BF7FB00AD7841 /* Overview */,
+				7770916D283BF80300AD7841 /* Session */,
+				7770916E283BF80A00AD7841 /* Progress */,
+				7770916F283BF80F00AD7841 /* Settings */,
 				7770916B283BF7EF00AD7841 /* Base */,
 			);
 			path = Controllers;
@@ -132,8 +134,6 @@
 		7770916B283BF7EF00AD7841 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				7770915A283BEEEF00AD7841 /* TabBarController.swift */,
-				77709163283BF45500AD7841 /* NavBarController.swift */,
 				77709167283BF5A100AD7841 /* BaseController.swift */,
 			);
 			path = Base;

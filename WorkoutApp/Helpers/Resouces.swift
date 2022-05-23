@@ -26,6 +26,32 @@ enum Resources {
             static var progress = "Progress"
             static var settings = "Settings"
         }
+
+        enum NavBar {
+            static var overview = "Today"
+            static var session = "High Intensity Cardio"
+            static var progress = "Workout Progress"
+            static var settings = "Settings"
+        }
+
+        enum Overview {
+
+        }
+
+        enum Session {
+            static var navBarLeft = "Pause"
+            static var navBarRight = "Finish"
+        }
+
+        enum Progress {
+            static var navBarLeft = "Export"
+            static var navBarRight = "Details"
+        }
+
+
+        enum Settings {
+
+        }
     }
 
     enum Images {
@@ -42,6 +68,4 @@ enum Resources {
             UIFont(name: "Helvetica", size: size) ?? UIFont()
         }
     }
-
-
 }
