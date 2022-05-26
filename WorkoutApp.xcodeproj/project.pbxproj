@@ -21,6 +21,7 @@
 		77709172283BF82600AD7841 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709171283BF82600AD7841 /* SessionController.swift */; };
 		77709174283BF83D00AD7841 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709173283BF83D00AD7841 /* ProgressController.swift */; };
 		77709176283BF84E00AD7841 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709175283BF84E00AD7841 /* SettingsController.swift */; };
+		77B44802283D4EC100ADDB6E /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44801283D4EC100ADDB6E /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		77709171283BF82600AD7841 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		77709173283BF83D00AD7841 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		77709175283BF84E00AD7841 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		77B44801283D4EC100ADDB6E /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		7770916C283BF7FB00AD7841 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				77B44800283D4E9900ADDB6E /* Views */,
 				77709148283BEDAC00AD7841 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -169,6 +172,14 @@
 				77709175283BF84E00AD7841 /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		77B44800283D4E9900ADDB6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77B44801283D4EC100ADDB6E /* SecondaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				7770915B283BEEEF00AD7841 /* TabBarController.swift in Sources */,
 				77709145283BEDAC00AD7841 /* AppDelegate.swift in Sources */,
 				77709172283BF82600AD7841 /* SessionController.swift in Sources */,
+				77B44802283D4EC100ADDB6E /* SecondaryButton.swift in Sources */,
 				77709174283BF83D00AD7841 /* ProgressController.swift in Sources */,
 				77709164283BF45500AD7841 /* NavBarController.swift in Sources */,
 				7770915F283BEF8D00AD7841 /* UIColor + ext.swift in Sources */,
