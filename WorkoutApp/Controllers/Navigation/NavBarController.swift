@@ -12,17 +12,17 @@ final class NavBarController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        configure()
+        configureAppearance()
     }
 
-    private func configure() {
+    private func configureAppearance() {
         view.backgroundColor = .white
         navigationBar.isTranslucent = false
         navigationBar.standardAppearance.titleTextAttributes = [
-            .foregroundColor: Resources.Colors.titleGray,
-            .font: Resources.Fonts.helvelticaRegular(with: 17)
+            .foregroundColor: R.Colors.titleGray,
+            .font: R.Fonts.helvelticaRegular(with: 17)
         ]
 
-        navigationBar.addBottomBorder(with: Resources.Colors.separator, height: 1)
+        navigationBar.addBottomBorder(with: R.Colors.separator, height: 1)
     }
 }

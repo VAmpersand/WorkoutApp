@@ -12,6 +12,24 @@ class SettingsController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = Resources.Strings.NavBar.settings
+        title = R.Strings.NavBar.settings
+    }
+}
+
+extension SettingsController {
+    override func setupViews() {
+        super.setupViews()
+
+    }
+
+    override func constraintViews() {
+        super.constraintViews()
+
+    }
+
+    override func configureAppearance() {
+        super.configureAppearance()
+
+        title = R.Strings.NavBar.settings
     }
 }

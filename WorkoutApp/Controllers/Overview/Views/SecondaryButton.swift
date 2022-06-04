@@ -9,15 +9,27 @@ import UIKit
 
 final class SecondaryButton: UIButton {
 
-    private let lable = UILabel()
-    private let iconView = UIImageView()
+    private let lable: UILabel = {
+        let lable = UILabel()
+        lable.textColor = R.Colors.active
+        lable.textAlignment = .center
+        lable.font = R.Fonts.helvelticaRegular(with: 15)
+        return lable
+    }()
+
+    private let iconView: UIImageView = {
+        let view = UIImageView()
+        view.image = R.Images.Common.downArrow?.withRenderingMode(.alwaysTemplate)
+        view.tintColor = R.Colors.active
+        return view
+    }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        addViews()
-        layoutViews()
-        configure()
+        setupViews()
+        constaintViews()
+        configureAppearance()
     }
 
     required init?(coder: NSCoder) {
@@ -31,12 +43,12 @@ final class SecondaryButton: UIButton {
 
 private extension SecondaryButton {
 
-    func addViews() {
-        addView(lable)
-        addView(iconView)
+    func setupViews() {
+        setupView(lable)
+        setupView(iconView)
     }
 
-    func layoutViews() {
+    func constaintViews() {
         NSLayoutConstraint.activate([
             iconView.centerYAnchor.constraint(equalTo: centerYAnchor),
             iconView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
@@ -49,16 +61,9 @@ private extension SecondaryButton {
         ])
     }
 
-    func configure() {
-        backgroundColor = Resources.Colors.secondary
+    func configureAppearance() {
+        backgroundColor = R.Colors.secondary
         layer.cornerRadius = 14
         makeSystem(self)
-
-        lable.textColor = Resources.Colors.active
-        lable.textAlignment = .center
-        lable.font = Resources.Fonts.helvelticaRegular(with: 15)
-
-        iconView.image = Resources.Images.Common.downArrow?.withRenderingMode(.alwaysTemplate)
-        iconView.tintColor = Resources.Colors.active
     }
 }
