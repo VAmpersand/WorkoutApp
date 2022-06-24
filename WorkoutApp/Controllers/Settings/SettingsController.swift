@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SettingsController: BaseController {
+class SettingsController: WABaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

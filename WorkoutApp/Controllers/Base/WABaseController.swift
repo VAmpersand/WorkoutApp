@@ -1,5 +1,5 @@
 //
-//  BaseController.swift
+//  WABaseController.swift
 //  WorkoutApp
 //
 //  Created by Viktor Prikolota on 23.05.2022.
@@ -12,7 +12,7 @@ enum NavBarPosition {
     case right
 }
 
-class BaseController: UIViewController {
+class WABaseController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class BaseController: UIViewController {
     }
 }
 
-@objc extension BaseController {
+@objc extension WABaseController {
 
     func setupViews() {}
     func constraintViews() {}
@@ -41,7 +41,7 @@ class BaseController: UIViewController {
     }
 }
 
-extension BaseController {
+extension WABaseController {
     func addNavBarButton(at position: NavBarPosition, with title: String) {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)

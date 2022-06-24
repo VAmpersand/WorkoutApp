@@ -32,7 +32,7 @@ enum R {
         }
 
         enum NavBar {
-            static var overview = "Today"
+            static let overview = "Today"
             static var session = "High Intensity Cardio"
             static var progress = "Workout Progress"
             static var settings = "Settings"

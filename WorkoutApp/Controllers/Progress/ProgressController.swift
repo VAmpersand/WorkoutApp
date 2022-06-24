@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProgressController: BaseController {
+class ProgressController: WABaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
