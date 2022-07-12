@@ -20,6 +20,7 @@ final class TabBarController: UITabBarController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
 
         configureAppearance()
+        switchTo(tab: .session)
     }
 
     required init?(coder: NSCoder) {
