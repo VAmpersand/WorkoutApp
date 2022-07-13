@@ -10,11 +10,11 @@ import UIKit
 final class OverviewNavBar: BaseView {
 
     private let titleLabel: UILabel = {
-        let lable = UILabel()
-        lable.text = R.Strings.NavBar.overview
-        lable.textColor = R.Colors.titleGray
-        lable.font = R.Fonts.helvelticaRegular(with: 22)
-        return lable
+        let label = UILabel()
+        label.text = R.Strings.NavBar.overview
+        label.textColor = R.Colors.titleGray
+        label.font = R.Fonts.helvelticaRegular(with: 22)
+        return label
     }()
 
     private let allWorkoutsButton: WAButton = {
