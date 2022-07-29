@@ -11,17 +11,17 @@ extension WeekView {
     final class WeekdayView: BaseView {
 
         private let nameLabel: UILabel = {
-            let lable = UILabel()
-            lable.font = R.Fonts.helvelticaRegular(with: 9)
-            lable.textAlignment = .center
-            return lable
+            let label = UILabel()
+            label.font = R.Fonts.helvelticaRegular(with: 9)
+            label.textAlignment = .center
+            return label
         }()
 
         private let dateLabel: UILabel = {
-            let lable = UILabel()
-            lable.font = R.Fonts.helvelticaRegular(with: 15)
-            lable.textAlignment = .center
-            return lable
+            let label = UILabel()
+            label.font = R.Fonts.helvelticaRegular(with: 15)
+            label.textAlignment = .center
+            return label
         }()
 
         private let stackView: UIStackView = {

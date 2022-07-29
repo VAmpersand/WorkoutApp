@@ -16,10 +16,10 @@ final class WAButton: UIButton {
 
     private var type: WAButtonType = .primary
 
-    private let lable: UILabel = {
-        let lable = UILabel()
-        lable.textAlignment = .center
-        return lable
+    private let label: UILabel = {
+        let label = UILabel()
+        label.textAlignment = .center
+        return label
     }()
 
     private let iconView: UIImageView = {
@@ -46,14 +46,14 @@ final class WAButton: UIButton {
     }
 
     func setTitle(_ title: String?) {
-        lable.text = title
+        label.text = title
     }
 }
 
 private extension WAButton {
 
     func setupViews() {
-        setupView(lable)
+        setupView(label)
         setupView(iconView)
     }
 
@@ -71,24 +71,24 @@ private extension WAButton {
             iconView.heightAnchor.constraint(equalToConstant: 5),
             iconView.widthAnchor.constraint(equalToConstant: 10),
 
-            lable.centerYAnchor.constraint(equalTo: centerYAnchor),
-            lable.trailingAnchor.constraint(equalTo: iconView.leadingAnchor, constant: -10),
-            lable.leadingAnchor.constraint(equalTo: leadingAnchor, constant: horisontalOffset * 2)
+            label.centerYAnchor.constraint(equalTo: centerYAnchor),
+            label.trailingAnchor.constraint(equalTo: iconView.leadingAnchor, constant: -10),
+            label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: horisontalOffset * 2)
         ])
     }
 
     func configureAppearance() {
         switch type {
         case .primary:
-            lable.textColor = R.Colors.inactive
-            lable.font = R.Fonts.helvelticaRegular(with: 13)
+            label.textColor = R.Colors.inactive
+            label.font = R.Fonts.helvelticaRegular(with: 13)
             iconView.tintColor = R.Colors.inactive
 
         case .secondary:
             backgroundColor = R.Colors.secondary
             layer.cornerRadius = 14
-            lable.textColor = R.Colors.active
-            lable.font = R.Fonts.helvelticaRegular(with: 15)
+            label.textColor = R.Colors.active
+            label.font = R.Fonts.helvelticaRegular(with: 15)
             iconView.tintColor = R.Colors.active
         }
 
