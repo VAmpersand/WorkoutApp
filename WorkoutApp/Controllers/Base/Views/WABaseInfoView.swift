@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WABaseInfoView: BaseView {
+class WABaseInfoView: WABaseView {
 
     private let titleLabel: UILabel = {
         let label = UILabel()

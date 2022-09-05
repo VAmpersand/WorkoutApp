@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class OverviewNavBar: BaseView {
+final class OverviewNavBar: WABaseView {
 
     private let titleLabel: UILabel = {
         let lable = UILabel()
