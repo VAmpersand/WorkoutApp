@@ -62,5 +62,8 @@ extension SessionController {
         addNavBarButton(at: .right, with: R.Strings.Session.navBarFinish)
 
         timerView.configure(with: timerDuration, progress: 0)
+        timerView.callBack = { [weak self] in
+            self?.navBarRightButtonHandler()
+        }
     }
 }

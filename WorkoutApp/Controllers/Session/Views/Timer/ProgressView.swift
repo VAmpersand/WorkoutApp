@@ -12,6 +12,7 @@ extension TimerView {
         func drawProgress(with percent: CGFloat) {
             layer.sublayers?.removeAll()
 
+            // MARK: - Circle
             let circleFrame = UIScreen.main.bounds.width - (15 + 40) * 2
             let radius = circleFrame / 2
             let center = CGPoint(x: radius, y: radius)
@@ -40,6 +41,7 @@ extension TimerView {
             circleLayer.fillColor = UIColor.clear.cgColor
             circleLayer.lineCap = .round
 
+            // MARK: - Dot
             let dotAngle = CGFloat.pi * (7 / 6 - (8 / 6 * percent))
             let dotPoint = CGPoint(x: cos(-dotAngle) * radius + center.x,
                                    y: sin(-dotAngle) * radius + center.y)
@@ -62,6 +64,7 @@ extension TimerView {
             dotLayer.lineCap = .round
             dotLayer.lineWidth = 8
 
+            // MARK: - Bars
             let barsFrame = UIScreen.main.bounds.width - (15 + 40 + 25) * 2
             let barsRadius = barsFrame / 2
 
@@ -109,7 +112,6 @@ extension TimerView {
 
                 angle -= 1 / 6
             }
-
 
             layer.addSublayer(defaultCircleLayer)
             layer.addSublayer(circleLayer)
