@@ -12,6 +12,8 @@
 		7766B53A284288C0000FF440 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B539284288C0000FF440 /* WeekView.swift */; };
 		7766B53C28428992000FF440 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B53B28428992000FF440 /* WeekdayView.swift */; };
 		7766B53E28428BF9000FF440 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B53D28428BF9000FF440 /* Date + ext.swift */; };
+		776BE29928F1974000316C05 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE29828F1974000316C05 /* StatsView.swift */; };
+		776BE29C28F1978300316C05 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE29B28F1978300316C05 /* StatsItemView.swift */; };
 		77709145283BEDAC00AD7841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709144283BEDAC00AD7841 /* AppDelegate.swift */; };
 		77709147283BEDAC00AD7841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709146283BEDAC00AD7841 /* SceneDelegate.swift */; };
 		77709149283BEDAC00AD7841 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709148283BEDAC00AD7841 /* OverviewController.swift */; };
@@ -39,6 +41,8 @@
 		7766B539284288C0000FF440 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		7766B53B28428992000FF440 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		7766B53D28428BF9000FF440 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		776BE29828F1974000316C05 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		776BE29B28F1978300316C05 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		77709141283BEDAC00AD7841 /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77709144283BEDAC00AD7841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77709146283BEDAC00AD7841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				7704063A285E1866005ED76D /* Timer */,
+				776BE29628F1958800316C05 /* Stats */,
+				776BE29728F1958F00316C05 /* Steps */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +122,30 @@
 				77709163283BF45500AD7841 /* NavBarController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		776BE29628F1958800316C05 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				776BE29A28F1976600316C05 /* Views */,
+				776BE29828F1974000316C05 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		776BE29728F1958F00316C05 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		776BE29A28F1976600316C05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				776BE29B28F1978300316C05 /* StatsItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		77709138283BEDAC00AD7841 = {
@@ -342,11 +372,13 @@
 				77B44802283D4EC100ADDB6E /* WAButton.swift in Sources */,
 				77709174283BF83D00AD7841 /* ProgressController.swift in Sources */,
 				77709164283BF45500AD7841 /* NavBarController.swift in Sources */,
+				776BE29C28F1978300316C05 /* StatsItemView.swift in Sources */,
 				7770915F283BEF8D00AD7841 /* UIColor + ext.swift in Sources */,
 				77F052AF28C608E600839EF6 /* PercentView.swift in Sources */,
 				77709162283BEFDE00AD7841 /* Resouces.swift in Sources */,
 				77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */,
 				7766B53C28428992000FF440 /* WeekdayView.swift in Sources */,
+				776BE29928F1974000316C05 /* StatsView.swift in Sources */,
 				77709168283BF5A100AD7841 /* WABaseController.swift in Sources */,
 				77709147283BEDAC00AD7841 /* SceneDelegate.swift in Sources */,
 			);
