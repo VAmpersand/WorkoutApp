@@ -32,7 +32,7 @@ class WABaseInfoView: WABaseView {
         titleLabel.textAlignment = buttonTitle == nil ? .center : .left
 
         button.setTitle(buttonTitle)
-        button.isHidden = buttonTitle == nil ? true : false
+        button.isHidden = buttonTitle == nil
         
         super.init(frame: .zero)
     }
