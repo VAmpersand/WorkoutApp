@@ -32,6 +32,7 @@
 		77709174283BF83D00AD7841 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709173283BF83D00AD7841 /* ProgressController.swift */; };
 		77709176283BF84E00AD7841 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77709175283BF84E00AD7841 /* SettingsController.swift */; };
 		77854D06284BC4EE0095D8A5 /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77854D05284BC4EE0095D8A5 /* WABaseInfoView.swift */; };
+		77A322E6294056DC00905950 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A322E5294056DC00905950 /* DailyPerformanceView.swift */; };
 		77B44802283D4EC100ADDB6E /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44801283D4EC100ADDB6E /* WAButton.swift */; };
 		77B44804283FE24400ADDB6E /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44803283FE24400ADDB6E /* OverviewNavBar.swift */; };
 		77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44805283FE26E00ADDB6E /* WABaseView.swift */; };
@@ -66,6 +67,7 @@
 		77709173283BF83D00AD7841 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		77709175283BF84E00AD7841 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		77854D05284BC4EE0095D8A5 /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
+		77A322E5294056DC00905950 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
 		77B44801283D4EC100ADDB6E /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		77B44803283FE24400ADDB6E /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		77B44805283FE26E00ADDB6E /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 		7770916E283BF80A00AD7841 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				77A322E2294056B800905950 /* Views */,
 				77709173283BF83D00AD7841 /* ProgressController.swift */,
 			);
 			path = Progress;
@@ -302,6 +305,22 @@
 				77B44801283D4EC100ADDB6E /* WAButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		77A322E2294056B800905950 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77A322E4294056C900905950 /* Performance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77A322E4294056C900905950 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				77A322E5294056DC00905950 /* DailyPerformanceView.swift */,
+			);
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		77B44800283D4E9900ADDB6E /* Views */ = {
@@ -391,6 +410,7 @@
 				7770915B283BEEEF00AD7841 /* TabBarController.swift in Sources */,
 				776BE2AC28F1D98B00316C05 /* WABarView.swift in Sources */,
 				77709145283BEDAC00AD7841 /* AppDelegate.swift in Sources */,
+				77A322E6294056DC00905950 /* DailyPerformanceView.swift in Sources */,
 				77709172283BF82600AD7841 /* SessionController.swift in Sources */,
 				77854D06284BC4EE0095D8A5 /* WABaseInfoView.swift in Sources */,
 				77040639285E17F9005ED76D /* TimerView.swift in Sources */,
