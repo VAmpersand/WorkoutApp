@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		77040639285E17F9005ED76D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77040638285E17F9005ED76D /* TimerView.swift */; };
 		7704063C285E1873005ED76D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704063B285E1873005ED76D /* ProgressView.swift */; };
+		774B893629517830001ED31E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774B893529517830001ED31E /* ChartView.swift */; };
 		7766B53A284288C0000FF440 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B539284288C0000FF440 /* WeekView.swift */; };
 		7766B53C28428992000FF440 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B53B28428992000FF440 /* WeekdayView.swift */; };
 		7766B53E28428BF9000FF440 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766B53D28428BF9000FF440 /* Date + ext.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		77040638285E17F9005ED76D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		7704063B285E1873005ED76D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		774B893529517830001ED31E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		7766B539284288C0000FF440 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		7766B53B28428992000FF440 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		7766B53D28428BF9000FF440 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 			children = (
 				77A322EE294067D000905950 /* XAxisView.swift */,
 				77A322F029406A0700905950 /* YAxisView.swift */,
+				774B893529517830001ED31E /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */,
 				7766B53C28428992000FF440 /* WeekdayView.swift in Sources */,
 				776BE2A928F1D97E00316C05 /* WABarsView.swift in Sources */,
+				774B893629517830001ED31E /* ChartView.swift in Sources */,
 				776BE29928F1974000316C05 /* StatsView.swift in Sources */,
 				77709168283BF5A100AD7841 /* WABaseController.swift in Sources */,
 				77709147283BEDAC00AD7841 /* SceneDelegate.swift in Sources */,
