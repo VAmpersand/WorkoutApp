@@ -42,6 +42,7 @@
 		77B44804283FE24400ADDB6E /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44803283FE24400ADDB6E /* OverviewNavBar.swift */; };
 		77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44805283FE26E00ADDB6E /* WABaseView.swift */; };
 		77C41E652995F135004ABAE6 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C41E642995F135004ABAE6 /* SectionHeaderView.swift */; };
+		77C41E672995F707004ABAE6 /* TrainingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C41E662995F707004ABAE6 /* TrainingCellView.swift */; };
 		77F052AF28C608E600839EF6 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F052AE28C608E600839EF6 /* PercentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		77B44803283FE24400ADDB6E /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		77B44805283FE26E00ADDB6E /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		77C41E642995F135004ABAE6 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		77C41E662995F707004ABAE6 /* TrainingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCellView.swift; sourceTree = "<group>"; };
 		77F052AE28C608E600839EF6 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -385,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				77C41E642995F135004ABAE6 /* SectionHeaderView.swift */,
+				77C41E662995F707004ABAE6 /* TrainingCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				77709149283BEDAC00AD7841 /* OverviewController.swift in Sources */,
 				77B44804283FE24400ADDB6E /* OverviewNavBar.swift in Sources */,
 				77A322E92940655500905950 /* MonthlyPerformanceView.swift in Sources */,
+				77C41E672995F707004ABAE6 /* TrainingCellView.swift in Sources */,
 				7770916A283BF70400AD7841 /* UIView + ext.swift in Sources */,
 				7770915B283BEEEF00AD7841 /* TabBarController.swift in Sources */,
 				776BE2AC28F1D98B00316C05 /* WABarView.swift in Sources */,
