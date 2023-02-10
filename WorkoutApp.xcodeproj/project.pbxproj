@@ -41,6 +41,7 @@
 		77B44802283D4EC100ADDB6E /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44801283D4EC100ADDB6E /* WAButton.swift */; };
 		77B44804283FE24400ADDB6E /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44803283FE24400ADDB6E /* OverviewNavBar.swift */; };
 		77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B44805283FE26E00ADDB6E /* WABaseView.swift */; };
+		77C41E652995F135004ABAE6 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C41E642995F135004ABAE6 /* SectionHeaderView.swift */; };
 		77F052AF28C608E600839EF6 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F052AE28C608E600839EF6 /* PercentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		77B44801283D4EC100ADDB6E /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 		77B44803283FE24400ADDB6E /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		77B44805283FE26E00ADDB6E /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
+		77C41E642995F135004ABAE6 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		77F052AE28C608E600839EF6 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -365,7 +367,24 @@
 		77B44800283D4E9900ADDB6E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				77C41E622995F111004ABAE6 /* CollectionView */,
 				7766B53F28429588000FF440 /* NavBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77C41E622995F111004ABAE6 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				77C41E632995F124004ABAE6 /* Views */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		77C41E632995F124004ABAE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77C41E642995F135004ABAE6 /* SectionHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -467,6 +486,7 @@
 				77F052AF28C608E600839EF6 /* PercentView.swift in Sources */,
 				77709162283BEFDE00AD7841 /* Resouces.swift in Sources */,
 				77B44806283FE26E00ADDB6E /* WABaseView.swift in Sources */,
+				77C41E652995F135004ABAE6 /* SectionHeaderView.swift in Sources */,
 				7766B53C28428992000FF440 /* WeekdayView.swift in Sources */,
 				776BE2A928F1D97E00316C05 /* WABarsView.swift in Sources */,
 				774B893629517830001ED31E /* ChartView.swift in Sources */,
